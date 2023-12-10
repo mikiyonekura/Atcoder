@@ -1,9 +1,5 @@
 #DFSみたいに再帰でやったらTLEなった
-
-def field_print(field):
-    print('==================================')
-    for i in field:
-        print(i)
+# https://atcoder.jp/contests/abc325/tasks
 
 import sys
 sys.setrecursionlimit(10**6)  # 再帰の深さの制限を増やす
